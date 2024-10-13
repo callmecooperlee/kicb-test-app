@@ -1,0 +1,17 @@
+
+
+.link {
+    color: #FFFFFF;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background: #4d7bb7;
+    }
+}
