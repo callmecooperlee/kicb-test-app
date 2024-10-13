@@ -1,0 +1,34 @@
+
+
+.container {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & > input {
+        outline: none;
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        border-bottom: 1px solid #343434;
+    }
+}
+
+.searchButton {
+    border-radius: 8px;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        box-shadow: 0 0 10px 0 #223C5033;
+        cursor: pointer;
+    }
+
+    &:hover svg path {
+        stroke: #0046aa!important;
+    }
+}
