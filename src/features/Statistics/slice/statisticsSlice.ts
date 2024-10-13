@@ -1,7 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { initialState } from "../initialState/statisticsInitialState.ts";
 import {
-    ErrorData,
     RequestParamsBody,
     StatisticsResponse,
 } from "@features/Statistics/types/statisticsTypes.ts";

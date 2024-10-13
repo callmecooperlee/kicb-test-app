@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import {
     selectStatisticsData,
-    selectStatisticsError,
     selectStatisticsIsLoading,
 } from "@features/Statistics/selectors/statisticsSelectors.ts";
 import { useEffect } from "react";

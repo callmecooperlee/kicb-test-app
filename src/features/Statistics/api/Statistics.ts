@@ -95,12 +95,11 @@ export class Statistics {
                 ]);
             }, 300);
         }).then((response) => {
-            const filteredResponse = response.filter((item) =>
+            return response.filter((item) =>
                 item.topSellingProduct
                     .toLowerCase()
                     .includes(payload.toLowerCase()),
             );
-            return filteredResponse;
         });
     }
 }
