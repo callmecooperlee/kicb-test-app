@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  kicb:
+    image: ${CI_REGISTRY_IMAGE}:${SHORT_SHA}
+    container_name: test-kicb-app
+    restart: always
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
