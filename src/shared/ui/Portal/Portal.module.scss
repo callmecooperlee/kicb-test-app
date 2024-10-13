@@ -1,0 +1,18 @@
+
+
+.modalFixed {
+    position: fixed;
+    height: 100dvh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow: auto;
+    background-color: transparent;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
