@@ -14,6 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Build, Push and Deploy
+    permissions:
+      contents: read
+      packages: write
     steps:
 
       - name: Checkout
