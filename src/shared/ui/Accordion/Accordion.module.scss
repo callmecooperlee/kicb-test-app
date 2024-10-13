@@ -1,0 +1,43 @@
+
+.container {
+    color: #FFFFFF;
+}
+
+.header {
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+        background: #4d7bb7;
+    }
+}
+
+.arrow {
+    transition: transform ease-in-out .3s;
+}
+
+.arrowIsDown {
+    transform: rotate(90deg);
+}
+
+.wrap {
+    overflow: hidden;
+    transition: height ease-in-out .3s;
+}
+
+.link {
+    padding: 10px 30px;
+
+    &:hover {
+        color: #D5D5D5;
+        text-decoration: underline;
+        text-underline: #D5D5D5;
+    }
+}
