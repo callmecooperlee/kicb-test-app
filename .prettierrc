@@ -1,0 +1,7 @@
+{
+    "tabWidth": 4,
+    "semicolons": true,
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "printWidth": 80
+}
