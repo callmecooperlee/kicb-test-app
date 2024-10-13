@@ -1,0 +1,57 @@
+
+
+
+.quitPanel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 #223C5033;
+    padding: 20px;
+}
+
+.cross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.description {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #343434;
+}
+
+.quitButtonGroup {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.quitButton {
+    border: none;
+    background: #0046aa;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background: red;
+}
+
+.notAllowed {
+    cursor: not-allowed;
+}
