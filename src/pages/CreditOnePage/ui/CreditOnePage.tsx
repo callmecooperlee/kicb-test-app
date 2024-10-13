@@ -1,5 +1,7 @@
 import { Title } from "@shared/ui/Title/Title.tsx";
 
-export const CreditOnePage = () => {
+const CreditOnePage = () => {
     return <Title>Потребительский кредит</Title>;
 };
+
+export default CreditOnePage;

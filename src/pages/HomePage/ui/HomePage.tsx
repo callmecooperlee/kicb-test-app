@@ -2,7 +2,7 @@ import { Title } from "@shared/ui/Title/Title.tsx";
 import { Fragment } from "react";
 
 import cls from "./HomePage.module.scss";
-export const HomePage = () => {
+const HomePage = () => {
     return (
         <Fragment>
             <Title>Главная страница</Title>
@@ -10,3 +10,5 @@ export const HomePage = () => {
         </Fragment>
     );
 };
+
+export default HomePage;

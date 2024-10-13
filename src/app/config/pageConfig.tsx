@@ -1,11 +1,12 @@
-import { APP_PAGES } from "@shared/consts/pages.ts";
-import { HomePage } from "@pages/HomePage/HomePage.tsx";
-import { AdminPage } from "@pages/AdminPage/AdminPage.tsx";
-import { ExamplePage } from "@pages/ExamplePage/ExamplePage.tsx";
-import { CreditOnePage } from "@pages/CreditOnePage/CreditOnePage.tsx";
-import { CreditTwoPage } from "@pages/CreditTwoPage/CreditTwoPage.tsx";
-import { Navigate } from "react-router-dom";
 import React from "react";
+import { Navigate } from "react-router-dom";
+
+import { AdminPage } from "@pages/AdminPage";
+import { CreditOnePage } from "@pages/CreditOnePage";
+import { HomePage } from "@pages/HomePage";
+import { CreditTwoPage } from "@pages/CreditTwoPage";
+
+import { APP_PAGES } from "@shared/consts/pages.ts";
 
 export const defaultsRoutes = [
     {
@@ -23,17 +24,11 @@ export const defaultsRoutes = [
     {
         id: 3,
         index: false,
-        path: APP_PAGES.EXAMPLE,
-        element: <ExamplePage />,
-    },
-    {
-        id: 4,
-        index: false,
         path: APP_PAGES.CREDIT_ONE,
         element: <CreditOnePage />,
     },
     {
-        id: 5,
+        id: 4,
         index: false,
         path: APP_PAGES.CREDIT_TWO,
         element: <CreditTwoPage />,
