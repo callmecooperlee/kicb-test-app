@@ -1,0 +1,42 @@
+
+.panel {
+    position: absolute;
+    overflow: hidden;
+    top: 100px;
+    right: 20px;
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 #223C5033;
+}
+
+.link {
+    padding: 14px 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: #0046aa;
+        color: #FFFFFF;
+    }
+}
+
+.separate {
+    width: calc(100% - 20px);
+    height: 1px;
+    background: #34343454;
+    margin: 0 10px ;
+}
+
+.quit {
+    color: red;
+
+    &:hover {
+        background: red;
+        color: #FFFFFF;
+    }
+}
+
+.notAllowed {
+    cursor: not-allowed;
+}
